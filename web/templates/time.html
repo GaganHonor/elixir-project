@@ -1,0 +1,6 @@
+<h1>Current Time in <%= @region %></h1>
+<p><%= @local_time %></p>
+
+<% if @region == "Unknown" do %>
+  <p>Please select your region for accurate time display.</p>
+<% end %>
